@@ -1,5 +1,6 @@
 package com.example.sentineldemo.controller;
 
+import com.example.sentineldemo.aspect.MyAspect;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -12,6 +13,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 @RequestMapping("/sentinel")
 public class TestController {
 
+    @MyAspect
     @RequestMapping(value = "/test", method = RequestMethod.GET)
     public void test(){
         System.out.println("123456");

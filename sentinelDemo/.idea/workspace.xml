@@ -4,23 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3aa1b620-9aca-4f03-9b64-c64f68976b85" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../productCode/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../productCode/src/main/java/com/example/productcode/ProductCodeApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../productCode/src/main/java/com/example/productcode/controller/MyApplicationContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../productCode/src/main/java/com/example/productcode/controller/QrCodeProductController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../productCode/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../productCode/src/test/java/com/example/productcode/ProductCodeApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../queue/src/main/java/com/example/queue/blockQueue/BlockQueueDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../queue/src/main/java/com/example/queue/delayQueue/DelayQueueDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/sentineldemo/controller/TestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../streamDemo/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../streamDemo/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="3aa1b620-9aca-4f03-9b64-c64f68976b85" name="Changes" comment="sentinelDemo构建">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/sentineldemo/aspect/AspectTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/sentineldemo/aspect/MyAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../guava" beforeDir="false" afterPath="$PROJECT_DIR$/../guava" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hutool" beforeDir="false" afterPath="$PROJECT_DIR$/../hutool" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../riskcontrol" beforeDir="false" afterPath="$PROJECT_DIR$/../riskcontrol" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../streamDemo/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../streamDemo/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../streamDemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../streamDemo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../streamDemo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../streamDemo/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../streamDemo/src/main/java/com/example/streamdemo/stream/GroupBy.java" beforeDir="false" afterPath="$PROJECT_DIR$/../streamDemo/src/main/java/com/example/streamdemo/stream/GroupBy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_13_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_13_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_13_4_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_13_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_13_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_13_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_68.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_68.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_68.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_7_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_7_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_7_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_3_23.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_3_23.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sentinelDemo.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/sentineldemo/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/sentineldemo/controller/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +39,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -45,6 +55,11 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -54,6 +69,9 @@
     <configuration name="SentinelDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="sentinelDemo" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.sentineldemo.SentinelDemoApplication" />
+      <option name="VM_PARAMETERS" value="-Dcsp.sentinel.dashboard.server=localhost:8080" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SHORTEN_COMMAND_LINE" value="NONE" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -67,8 +85,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1667230007397</updated>
-      <workItem from="1667230008818" duration="337000" />
+      <workItem from="1667230008818" duration="5127000" />
     </task>
+    <task id="LOCAL-00001" summary="sentinelDemo构建">
+      <created>1667230435734</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1667230435734</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -84,5 +110,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="sentinelDemo构建" />
+    <option name="LAST_COMMIT_MESSAGE" value="sentinelDemo构建" />
   </component>
 </project>
